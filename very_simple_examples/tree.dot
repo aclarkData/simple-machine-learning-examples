@@ -5,7 +5,7 @@ node [shape=box] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]\nclass = Height"] ;
 1 -> 2 ;
-3 [label="Height <= 171.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]\nclass = Height"] ;
+3 [label="Weight <= 67.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]\nclass = Height"] ;
 1 -> 3 ;
 4 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1]\nclass = Weight"] ;
 3 -> 4 ;
